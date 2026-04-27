@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <!-- Rider Banner -->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="24dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/rider_banner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RIDER HUB"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ride. Explore. Brotherhood."
+            android:textColor="#CCCCCC"
+            android:textSize="16sp"
+            android:letterSpacing="0.1"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"/>
+        <Button
+            android:id="@+id/btnExplore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explore Bikes"
+            android:backgroundTint="@color/orange_primary"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnBrotherhood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join Brotherhood"
+            android:backgroundTint="@color/orange_primary"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="20dp"/>
+
+        <Button
+            android:id="@+id/btnIncoming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Incoming Rides"
+            android:backgroundTint="@color/orange_primary"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</ScrollView>
